@@ -1,0 +1,107 @@
+body{
+	margin:0px;
+	font:16px/1.5em black helvtica,arial,sans-serif;
+	padding: 0px;
+	background-color: #f4f4f4;
+}
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+
+}
+#mainHeader{
+	padding-top:30px;
+  min-height:70px;
+	background-color:#35424a; 
+	border-bottom:4px orange solid;
+}
+#mainHeader .dec{
+	color:#e8491d;
+}
+.branding h1{
+	float:left; 
+}
+
+#navbar{
+	float: right;	
+}
+#navbar ul{
+	float: right;
+	text-transform: uppercase;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+	text-decoration: none;
+}
+#navbar a{
+	color: white;
+	text-decoration: none;
+	padding: 0px 10px;
+}
+
+/*showcase*/
+
+#showcase {
+	background-image: url("../img/showcase.jpg");
+	background-repeat: no-repeat;
+	background-position: -300px ;
+	text-align:center;
+
+}
+#showcase h3{
+	margin: 35px 20px;
+	line-height: 1.4em;
+	font-size:80px;
+	
+}
+#showcase p{
+	font-size:30px;
+	word-spacing:0.20em;
+
+
+}
+#forms{
+	margin-top: 0px;
+	background-color: #35424a;
+
+}
+#forms h1{
+	color:white;
+	float:left;
+	
+}
+#inp{
+	float:right;
+	margin-top: 15px;
+
+}#inp input[type="text"]{
+
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+#inp button[type="submit"]{
+	background-color: #FF4500;
+	padding: 10px 10px;
+}
+#mainSection{
+	margin-top: 40px;
+	
+}
+#mainSection .box{
+	width: 30%;
+	text-align: center;
+	float:left;
+	padding: 20px;
+}
+#mainSection img{
+	width: 80px;
+}
+footer{
+	padding: 15px;
+	text-align: center;
+	background-color:#A52A2A;
+	font-size: 20px;
+}

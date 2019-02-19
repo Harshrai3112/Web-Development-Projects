@@ -1,0 +1,59 @@
+.firstSection{
+	background-image: url(img/showcase.jpg);
+	background-size: cover;
+	background-position: center;
+	
+	padding: 10rem 10rem;
+	/*background-color: rgba(255,0,128,0.1);*/
+	/*opacity: 0.5;*/
+}
+.jumbotron h2{
+	font-size: 3rem;
+	font-weight: 600;
+	color:white;
+}
+form input[type="text"]{
+	height: 100%;
+	max-width: 100%;
+}
+@media(max-width: 800px){
+	.jumbotron h2{
+		font-size:2.5rem;
+		font-weight: 550;
+	}
+	.jumbotron{
+		padding: 25% 10%;
+	}
+	/*#mainDivFirst{
+		margin: 20px 20px;
+		padding: 25px 25px;
+	}*/
+
+}
+
+@media(max-width: 600px){
+	.jumbotron h2{
+		font-size:2.0rem;
+		font-weight: 500;
+	}
+	.jumbotron{
+		padding: 20% 2%;
+	}	
+	#secondSection h1{
+		font-size: 30px;
+	}
+	#secondSection .row{
+	
+		padding:0px 30px;
+	}
+}
+#secondSection p{
+	font-weight: 200;
+	font-size: 1.2rem;
+}
+#mainSection p{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-weight: 200;
+	font-size: 1.2rem;	
+}

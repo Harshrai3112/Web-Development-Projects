@@ -1,0 +1,18 @@
+body{
+	background-color: rgb(0, 0, 0);
+}
+.square{
+	background-color: red;
+	margin: 1.6%;
+	padding-bottom: 30%;
+
+}
+#message{
+	color: white;
+}
+.diffculty{
+	color:white;
+}
+#hardBtn{
+	background-color: blue;
+}

@@ -1,0 +1,19 @@
+ <% include partials/header %>
+
+<h1>Welcome to Post Page</h1>
+
+<% for(var i=0;i<posts.length;i++){ %>
+    <li>
+        <%= posts[i].title %> - <%= posts[i].author %>
+    </li>
+<% } %>
+
+<h1>NOw using forEach LOOOOOOOOOOOOOOOOOOOOOOOOOP</h1>
+
+
+<% posts.forEach(function(post){ %>
+    <li>
+        <%= post.title %> - <%= post.author %>
+    </li>
+<% }) %>
+  <% include partials/footer %>

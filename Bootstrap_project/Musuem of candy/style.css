@@ -1,0 +1,48 @@
+body{
+	background-color: #f5d9d5;
+}
+#mainNav{
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+.navbar .navbar-brand {
+	color: #EA1C2C;
+
+}
+#mainNav .nav-link{
+	color: white;
+}
+#mainNav .nav-link:hover{
+	color: #EA1C2C;
+}
+#mainHeader img{
+	width:100%;
+	
+	
+}
+#mainHeader span{
+	color:#EA1C2C;
+}
+#mainHeader h1{
+	font-size: 3rem;
+	font-weight: 100;
+}
+@media(max-width:1300px){
+	#mainHeader h1{
+		font-size: 2rem;
+	}
+}
+#secondSection img{
+	width:100%;
+	max-height: 100%;
+}
+#secondSection h1{
+	font-weight:150;
+	font-size: 2.5rem
+}
+.lead{
+	font-weight:100;
+ 	font-size: 1.12rem;
+	line-height: 2;
+
+}

@@ -1,0 +1,134 @@
+body{
+	font:normal 16px Arial,Helvitca ;
+	margin:0px;
+}
+.container{
+	overflow: hidden;
+	width: 85%;
+	margin: auto;
+}
+
+#mainHeader{
+	background-color: #660099;
+	position: static;
+
+
+}
+.branding {
+	text-transform: uppercase;
+	color: white;
+	font-size: 25px;
+	font-weight: 10px;
+	float:left;
+}
+.branding span{
+	color:#00CCFF; 
+}
+#navbar{
+	float: right;
+	text-decoration: none;
+}
+#navbar ul{
+	padding-top: 24px;
+	
+	list-style-type: none;
+}
+#navbar li{
+	display: inline;
+	
+	padding:0px 10px;
+}
+#navbar a{
+	text-decoration: none;
+	color: white;
+}
+#navbar a:hover{
+	color: red;
+	background-color: yellow;
+}
+#navbar a:visited{
+	color: green;
+	background-color: black;
+}
+#navbar a:active{
+	color: black;
+	background-color: white;
+}
+#showcase{
+	text-align: center;
+	background-image: url("../images/backJames0.jpg");
+	background-position: -100px ;
+	padding: 180px ;	
+	margin: 0px;
+}
+#show{
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+#show h3{
+	font-size: 25px;
+}
+#show h1{
+	font-size: 30px;
+}
+.Ser{
+	margin: 0px 10px;
+	width:25%;
+	float:left;
+	padding: 20px 30px;
+	background-color:#660099; 
+	
+}
+#mainArea{
+	margin-top: 30px ;
+	color: white;
+}
+.Ser h1{
+	text-transform: uppercase;
+}
+.button1{
+	background-color: #00CCFF;
+	padding: 5px 5px;
+
+}
+#About{
+	text-align: center;
+	background-color: #66CCFF;
+	margin: 40px 0px;
+	padding:70px 90px;	
+	color: #000033;
+	margin-bottom: 0px;
+	
+}
+#About h1{
+	text-transform: uppercase;
+	font-size: 30px;
+}
+#contact {
+	margin-top: 0px;
+	background-color: #330066;
+	padding: 100px 0px;}
+#img{
+	float:left;
+	
+}
+#sidebar{
+	float: right;
+	font-size: 25px;
+}
+#forms input[type="text"]{
+	padding: 15px 80px;
+	margin: 15px 15px;
+	float:left;
+	font-size: 15px;
+}
+#forms textarea{
+	margin:15px 15px;
+	padding: 40px 40px;
+}
+#forms button{
+	margin-top
+	: 30px;
+	padding: 10px 10px;
+	float:center;
+}
